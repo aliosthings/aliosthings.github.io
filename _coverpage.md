@@ -1,13 +1,13 @@
 ![logo](_media/icon.svg)
 
-# docsify <small>4.5.7</small>
+[Version 1.2.0](https://github.com/alibaba/AliOS-Things)
 
-> A magical documentation site generator.
+> Alibaba's IoT version of OS comes from AliOS family.
 
-- Simple and lightweight (~18kB gzipped)
-- No statically built html files
-- Multiple themes
+- Simple and lightweight
+- Low power
+- Connectivity
 
 
-[GitHub](https://github.com/QingWei-Li/docsify/)
+[GitHub](https://github.com/alibaba/AliOS-Things)
 [Get Started](#docsify)
