@@ -1,29 +1,53 @@
-## docsify
+## AliOS Things
 
-> 一个神奇的文档网站生成工具
+> AliOS 家族旗下的、面向 IoT 领域的、轻量级物联网嵌入式操作系统。
 
-## 是什么
+## 愿景
 
-docsify 是一个动态生成文档网站的工具。不同于 GitBook、Hexo 的地方是它不会生成将 `.md` 转成 `.html` 文件，所有转换工作都是在运行时进行。
-
-这将非常实用，如果只是需要快速的搭建一个小型的文档网站，或者不想因为生成的一堆 `.html` 文件“污染” commit 记录，只需要创建一个 `index.html` 就可以开始写文档而且直接[部署在 GitHub Pages](zh-cn/deploy.md)。
+AliOS Things 致力于搭建云端一体化 IoT 基础设施，具备极致性能、极简开发、云端一体、丰富组件、安全防护等关键能力，并支持终端设备连接到阿里云 Link，可广泛应用在智能家居、智慧城市、新出行等领域。
 
 查看[快速开始](zh-cn/quickstart.md)了解详情。
 
 ## 特性
-- 无需构建，写完文档直接发布
-- 容易使用并且轻量 (~18kB gzipped)
-- 智能的全文搜索
-- 提供多套主题
-- 丰富的 API
-- 支持 Emoji
-- 兼容 IE10+
-- 支持 SSR ([example](https://github.com/QingWei-Li/docsify-ssr-demo))
 
-## 例子
+**极简开发**
+- 基于Linux平台，提供MCU虚拟化环境，开发者直接在Linux平台上开发硬件无关的IoT应用和软件库，使用GDB/Valgrind/SystemTap 等PC平台工具诊断开发问题
+- 提供IDE，支持系统/内核行为Trace、Mesh组网图形化显示
+- 提供Shell交互，支持内存踩踏、泄露、最大栈深度等各类侦测
+- 提供面向组件的编译系统以及Cube工具，支持灵活组合IoT产品软件栈
+- 提供包括存储(掉电保护、负载均衡)在内的各类产品级别的组件
 
-可以查看 [Showcase](https://github.com/QingWei-Li/docsify/#showcase) 来了解使用 docsify 的文档项目。
+**即插即用的连接和丰富服务**
+- 支持umesh即插即用网络技术，设备上电自动连网
+- 通过Alink与阿里云计算IoT服务无缝连接
 
-## 捐赠
+**细颗粒度的FOTA更新**
+- 支持应用代码独立编译映像，IoT App独立极小映像升级
+- 支持映像高度压缩
 
-如果你觉得 docsify 对你有帮助，或者想对我微小的工作一点资瓷，欢迎给我[捐赠](https://github.com/QingWei-Li/donate)。
+**彻底全面的安全保护**
+- 提供系统和芯片级别安全保护
+- 支持可信运行环境(支持ARMV8-M Trust Zone)
+- 支持预置ID2根身份证和非对称密钥以及基于ID2的可信连接和服务
+
+**高度优化的性能**
+- 内核支持Idle Task成本，Ram<1K,Rom<2k，提供硬实时能力
+- 提供YLOOP事件框架以及基于此整合的核心组件，避免栈空间消耗，核心架构良好支持极小FootPrint的设备
+
+**解决IoT实际问题的特性演进**
+- 更好的云端一体融合优化，更简单的开发体验，更安全，更优整体性能和算法支持，更多的特性演进，我们在路上
+  Stay Hungry，Stay Foolish！
+
+### 在Ubuntu控制台下快速开始开发
+
+```shell
+$ pip install aos-cube
+$ git clone https://github.com/alibaba/AliOS-Things.git
+$ cd AliOS-Things
+$ aos make helloworld@linuxhost
+$ ./out/helloworld@linuxhost/binary/helloworld@linuxhost.elf
+```
+
+## 应用
+
+可以查看 [Showcase](/#) 来了解使用 AliOS-Things 的文档项目。
