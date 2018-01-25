@@ -1,13 +1,10 @@
 ![logo](_media/icon.svg)
 
-[Version 1.2.0](https://github.com/alibaba/AliOS-Things)
+[![build](https://img.shields.io/travis/alibaba/AliOS-Things.svg?style=flat-square)](https://github.com/alibaba/AliOS-Things)
+[![version](https://img.shields.io/github/tag/alibaba/AliOS-Things.svg?style=flat-square)](https://github.com/alibaba/AliOS-Things)
+[![license](https://img.shields.io/github/license/alibaba/AliOS-Things.svg?style=flat-square)](https://github.com/alibaba/AliOS-Things)
 
 > Alibaba's IoT version of OS comes from AliOS family.
 
-- Simple and lightweight
-- Low power
-- Connectivity
-
-
 [GitHub](https://github.com/alibaba/AliOS-Things)
-[Get Started](#docsify)
+[Get Started](#alios-things)
