@@ -28,8 +28,8 @@ div#app:empty:before {
     vertical-align:middle
 }
 .progress {
-    background-color:#42b983;
-    background-color:var(--theme-color,#42b983);
+    background-color:#22b8b4;
+    background-color:var(--theme-color,#22b8b4);
     height:2px;
     left:0;
     position:fixed;
@@ -40,8 +40,8 @@ div#app:empty:before {
     z-index:5
 }
 .search .search-keyword,.search a:hover {
-    color:#42b983;
-    color:var(--theme-color,#42b983)
+    color:#22b8b4;
+    color:var(--theme-color,#22b8b4)
 }
 .search .search-keyword {
     font-style:normal;
@@ -112,12 +112,12 @@ li input[type=checkbox] {
     transition:color .3s
 }
 .app-nav a.active,.app-nav a:hover {
-    color:#42b983;
-    color:var(--theme-color,#42b983)
+    color:#22b8b4;
+    color:var(--theme-color,#22b8b4)
 }
 .app-nav a.active {
-    border-bottom:2px solid #42b983;
-    border-bottom:2px solid var(--theme-color,#42b983)
+    border-bottom:2px solid #22b8b4;
+    border-bottom:2px solid var(--theme-color,#22b8b4)
 }
 .app-nav li {
     display:inline-block;
@@ -176,8 +176,8 @@ li input[type=checkbox] {
 }
 .github-corner svg {
     color:#fff;
-    fill:#42b983;
-    fill:var(--theme-color,#42b983);
+    fill:#22b8b4;
+    fill:var(--theme-color,#22b8b4);
     height:80px;
     width:80px
 }
@@ -287,8 +287,8 @@ main {
     opacity:.4
 }
 .sidebar-toggle span {
-    background-color:#42b983;
-    background-color:var(--theme-color,#42b983);
+    background-color:#22b8b4;
+    background-color:var(--theme-color,#22b8b4);
     display:block;
     margin-bottom:4px;
     width:16px;
@@ -552,12 +552,12 @@ section.cover ul {
     padding:0
 }
 section.cover .cover-main>p:last-child a {
-    border-color:#42b983;
-    border:1px solid var(--theme-color,#42b983);
+    border-color:#22b8b4;
+    border:1px solid var(--theme-color,#22b8b4);
     border-radius:2rem;
     box-sizing:border-box;
-    color:#42b983;
-    color:var(--theme-color,#42b983);
+    color:#22b8b4;
+    color:var(--theme-color,#22b8b4);
     display:inline-block;
     font-size:16.8px;
     font-size:1.05rem;
@@ -571,8 +571,8 @@ section.cover .cover-main>p:last-child a {
     transition:all .15s ease
 }
 section.cover .cover-main>p:last-child a:last-child {
-    background-color:#42b983;
-    background-color:var(--theme-color,#42b983);
+    background-color:#22b8b4;
+    background-color:var(--theme-color,#22b8b4);
     color:#fff;
     margin-right:0
 }
@@ -584,13 +584,13 @@ section.cover .cover-main>p:last-child a:hover {
     color:inherit
 }
 section.cover blockquote>p>a {
-    border-bottom:2px solid #42b983;
-    border-bottom:2px solid var(--theme-color,#42b983);
+    border-bottom:2px solid #22b8b4;
+    border-bottom:2px solid var(--theme-color,#22b8b4);
     transition:color .3s
 }
 section.cover blockquote>p>a:hover {
-    color:#42b983;
-    color:var(--theme-color,#42b983)
+    color:#22b8b4;
+    color:var(--theme-color,#22b8b4)
 }
 section.cover.show {
     display:-webkit-box;
@@ -630,8 +630,8 @@ section.cover.has-mask .mask {
 }
 .sidebar ul li.active>a {
     border-right:2px solid;
-    color:#42b983;
-    color:var(--theme-color,#42b983);
+    color:#22b8b4;
+    color:var(--theme-color,#22b8b4);
     font-weight:600
 }
 .app-sub-sidebar li:before {
@@ -644,8 +644,8 @@ section.cover.has-mask .mask {
     font-weight:600
 }
 .markdown-section a {
-    color:#42b983;
-    color:var(--theme-color,#42b983);
+    color:#22b8b4;
+    color:var(--theme-color,#22b8b4);
     font-weight:600
 }
 .markdown-section h1 {
@@ -691,8 +691,8 @@ section.cover.has-mask .mask {
     padding-left:1.5rem
 }
 .markdown-section blockquote {
-    border-left:4px solid #42b983;
-    border-left:4px solid var(--theme-color,#42b983);
+    border-left:4px solid #22b8b4;
+    border-left:4px solid var(--theme-color,#22b8b4);
     color:#858585;
     margin:2em 0;
     padding-left:20px
@@ -751,8 +751,8 @@ section.cover.has-mask .mask {
     color:#2973b7
 }
 .token.string {
-    color:#42b983;
-    color:var(--theme-color,#42b983)
+    color:#22b8b4;
+    color:var(--theme-color,#22b8b4)
 }
 .token.selector {
     color:#6679cc
@@ -764,8 +764,8 @@ section.cover.has-mask .mask {
     color:#22a2c9
 }
 .token.attr-value,.token.control,.token.directive,.token.unit {
-    color:#42b983;
-    color:var(--theme-color,#42b983)
+    color:#22b8b4;
+    color:var(--theme-color,#22b8b4)
 }
 .token.keyword {
     color:#e96900
