@@ -554,7 +554,7 @@ section.cover ul {
 section.cover .cover-main>p:last-child a {
     border-color:#22b8b4;
     border:1px solid var(--theme-color,#22b8b4);
-    border-radius:2rem;
+    border-radius:0rem;
     box-sizing:border-box;
     color:#22b8b4;
     color:var(--theme-color,#22b8b4);
