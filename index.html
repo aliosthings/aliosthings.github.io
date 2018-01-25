@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css" title="dark" disabled>
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" title="buble" disabled>
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/pure.css" title="pure" disabled>
+  <link rel="stylesheet" href="//unpkg.com/docsify-copy-code/styles.css">
   <style>
     nav.app-nav li ul {
       min-width: 100px;
@@ -20,6 +21,7 @@
 </head>
 <body>
   <div id="app">Loading ...</div>
+  <script src="//unpkg.com/docsify-copy-code/index.js"></script>
   <script>
     window.$docsify = {
       repo: 'https://github.com/alibaba/AliOS-Things',
@@ -49,6 +51,7 @@
       },
       formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
       plugins: [
+        window.DocsifyCopyCodePlugin.init(),
         /*
         function(hook, vm) {
           hook.beforeEach(function (html) {
