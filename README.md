@@ -23,17 +23,3 @@ From an architectural point of view, AliOS Things adapts Layered Architecture an
 - Examples: hands-on sample codes, and well tested applications such as Alinkapp
 
 All modules have been organized as Components, and each component has its own .mk file to describe its dependency with other Components, which enables applications to choose components needed easily.
-
-### Quick Start by Command Line using Ubuntu Machine
-
-```shell
-$ pip install aos-cube
-$ git clone https://github.com/alibaba/AliOS-Things.git
-$ cd AliOS-Things
-$ aos make helloworld@linuxhost
-$ ./out/helloworld@linuxhost/binary/helloworld@linuxhost.elf
-```
-
-## Applications
-
-Check out the [Showcase](/#) to AliOS Things in use.

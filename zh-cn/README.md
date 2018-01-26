@@ -37,17 +37,3 @@ AliOS Things 致力于搭建云端一体化 IoT 基础设施，具备极致性�
 **解决IoT实际问题的特性演进**
 - 更好的云端一体融合优化，更简单的开发体验，更安全，更优整体性能和算法支持，更多的特性演进，我们在路上
   Stay Hungry，Stay Foolish！
-
-### 在Ubuntu控制台下快速开始开发
-
-```shell
-$ pip install aos-cube
-$ git clone https://github.com/alibaba/AliOS-Things.git
-$ cd AliOS-Things
-$ aos make helloworld@linuxhost
-$ ./out/helloworld@linuxhost/binary/helloworld@linuxhost.elf
-```
-
-## 应用
-
-可以查看 [Showcase](/#) 来了解使用 AliOS-Things 的文档项目。
