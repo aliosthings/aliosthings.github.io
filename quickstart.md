@@ -33,3 +33,14 @@ cd AliOS-Things
 aos make helloworld@linuxhost
 ./out/helloworld@linuxhost/binary/helloworld@linuxhost.elf
 ```
+
+## Result
+
+There you can see the delayed action starts in 1 sec and getting triggered every 5 secs.
+```bash
+$ ./out/helloworld@linuxhost/binary/helloworld@linuxhost.elf
+ [   1.000]<V> AOS [app_delayed_action#9] : app_delayed_action:9 app
+ [   6.000]<V> AOS [app_delayed_action#9] : app_delayed_action:9 app
+ [  11.000]<V> AOS [app_delayed_action#9] : app_delayed_action:9 app
+ [  16.000]<V> AOS [app_delayed_action#9] : app_delayed_action:9 app
+ ```
