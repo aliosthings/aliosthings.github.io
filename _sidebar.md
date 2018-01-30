@@ -1,8 +1,8 @@
 - Getting started
   - [Quick start](quickstart.md)
+  - [Hello world](helloworld.md)
 
 - Documentation
-  - [Hello world](helloworld.md)
   - [Hardware](hardware.md)
 
 - Application

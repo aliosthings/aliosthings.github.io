@@ -1,8 +1,8 @@
 - 入门
   - [快速开始](zh-cn/quickstart.md)
+  - [第一个应用](zh-cn/helloworld.md)
 
 - 文档
-  - [第一个应用](zh-cn/helloworld.md)
   - [硬件](zh-cn/hardware.md)
 
 - 应用
