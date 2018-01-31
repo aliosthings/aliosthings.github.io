@@ -73,7 +73,7 @@ Therefore, application code can achieve great portability by using VFS, kill the
 [VFS API](https://github.com/alibaba/AliOS-Things/wiki/AliOS-Things-API-VFS-Guide)
 
 ### 1.7 uMesh
-uMesh is another one of the core compents of AliOS Things, makes it possible for hardware modules to form a self-organised network.  
+uMesh is another core component of AliOS Things, makes it possible for hardware modules to form a self-organised network.  
 uMesh implements the mesh link management, mesh routing, 6LoWPAN, AES-128, etc.  
 It supports raw data packet transportation, as well as IPv4 or IPv6.  
 We can programming with sockets, make use of the self-organised network offered by uMesh, to develop the connective applications for smart devices.  
