@@ -3,6 +3,7 @@
   - [第一个应用](zh-cn/helloworld.md)
 
 - 文档
+  - [组件](zh-cn/components.md)
   - [硬件](zh-cn/hardware.md)
 
 - 应用
