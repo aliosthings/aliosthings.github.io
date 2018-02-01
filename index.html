@@ -55,13 +55,15 @@
         function(hook, vm) {
           hook.beforeEach(function (html) {
             var url = 'https://github.com/aliosthings/aliosthings.github.io/blob/master/' + vm.route.file
-            var editHtml = '[Edit this page](' + url + ') :memo:\n'
+            var editHtml = '[:memo: Edit this page](' + url + ')\n'
+            var aosHtml = '[AliOS Things](https://github.com/alibaba/AliOS-Things) Team.\n'
 
-            return editHtml
-              + html
-              + '\n----\n'
-              + 'Last modified {docsify-updated} '
-              + editHtml
+            return '_Last modified {docsify-updated}_ ' +
+              editHtml +
+              html +
+              '\n----\n' +
+              'Crafted with :heart: by ' +
+              aosHtml
           })
         }
       ]

@@ -10,8 +10,8 @@
   - [演示](zh-cn/sample.md)
 
 - 资源
+  - [版本发布](zh-cn/release.md)
   - [社区](zh-cn/community.md)
 
 - 关于
-  - [版本发布](zh-cn/release.md)
   - [联系我们](zh-cn/contact.md)

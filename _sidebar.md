@@ -10,8 +10,8 @@
   - [Sample](sample.md)
 
 - Resource
+  - [Release](release.md)
   - [Community](community.md)
 
 - About
-  - [Release](release.md)
   - [Contact](contact.md)
