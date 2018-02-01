@@ -23,14 +23,3 @@ From an architectural point of view, AliOS Things adapts Layered Architecture an
 - Examples: hands-on sample codes, and well tested applications such as Alinkapp
 
 All modules have been organized as Components, and each component has its own .mk file to describe its dependency with other Components, which enables applications to choose components needed easily.
-
-<div>{{ msg }}</div>
-
-<script>
-  new Vue({
-    el: '#main',
-    data: {
-      msg: 'Stay hungry, stay foolish!'
-    }
-  })
-</script>
