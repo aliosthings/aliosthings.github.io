@@ -3,7 +3,7 @@
   - [Hello world](helloworld.md)
 
 - Documentation
-  - [Components](components.md)
+  - [Technical Overview](technical-overview.md)
   - [Hardware](hardware.md)
 
 - Application

@@ -3,7 +3,7 @@
   - [第一个应用](zh-cn/helloworld.md)
 
 - 文档
-  - [组件](zh-cn/components.md)
+  - [技术架构总览](zh-cn/technical-overview.md)
   - [硬件](zh-cn/hardware.md)
 
 - 应用

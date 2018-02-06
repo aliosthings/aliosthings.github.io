@@ -1,3 +1,7 @@
+# Contact
+
+Mail to: `aliosthings@service.aliyun.com`
+
 <div>{{ msg }}</div>
 
 <script>
