@@ -7,7 +7,7 @@
   - [硬件](zh-cn/hardware.md)
 
 - 应用
-  - [演示](zh-cn/sample.md)
+  - [场景](zh-cn/scenario.md)
 
 - 资源
   - [版本发布](zh-cn/release.md)

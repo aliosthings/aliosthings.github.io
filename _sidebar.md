@@ -7,7 +7,7 @@
   - [Hardware](hardware.md)
 
 - Application
-  - [Sample](sample.md)
+  - [Scenarios](scenario.md)
 
 - Resource
   - [Release](release.md)
