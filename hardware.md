@@ -4,7 +4,7 @@
 
 #### ARM968E-S
   - MXCHIP MOC108
-    - MK3060
+    - [MXCHIP MK3060](http://www.mxchip.com/product/wifi_product/56)
 
 #### ARM Cortex-M0+
   - ST Micro STM32 L0
@@ -27,8 +27,8 @@
   - GigaDevice GD32 F4
   - Eastsoft ES8P508x
   - MXCHIP
-    - MK3166
-    - MK3239
+    - [MK3166](http://www.mxchip.com/product/wifi_product/41)
+    - [MK3239](http://www.mxchip.com/product/wifi_product/42)
 
 #### ARM Cortex-M7
   - ST Micro STM32 F7
