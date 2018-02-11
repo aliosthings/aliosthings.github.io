@@ -48,8 +48,8 @@
   - CK803S
 
 ## Renesas
-  - RL78 Family
-  - RX Family
+  - [RL78 Family](https://www.renesas.com/zh-cn/products/microcontrollers-microprocessors/rl78.html)
+  - [RX Family](https://www.renesas.com/zh-cn/products/microcontrollers-microprocessors/rx.html)
 
 ## Linux
   - user mode simulation
