@@ -22,7 +22,7 @@
     - [B-L475E-IOT01A](http://www.st.com/zh/evaluation-tools/b-l475e-iot01a.html)
     - [NUCLEO-L432KC](http://www.st.com/en/evaluation-tools/nucleo-l432kc.html)
     - [32L496GDISCOVERY](http://www.st.com/en/evaluation-tools/32l496gdiscovery.html)
-  - NXP LPC5410x
+  - [NXP LPC5410x](https://www.nxp.com/cn/products/software-and-tools/hardware-development-tools/lpcxpresso-boards/lpc54102-sensor-processing-motion-solution:OM13078)
   - [LPCXpresso54102](https://www.nxp.com/support/developer-resources/hardware-development-tools/lpcxpresso-boards/lpcxpresso-board-for-the-lpc54100-family-of-mcus:OM13077)
   - GigaDevice GD32 F4
   - Eastsoft ES8P508x
@@ -43,7 +43,7 @@
 ## C-SKY
   - CK610
   - CK801
-  - CK802
+  - [CK802](http://www.c-sky.com/solution/10670.htm)
     - hobbit1_evb
   - CK803S
 
