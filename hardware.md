@@ -38,6 +38,7 @@
   - LX6 (ESP32)
     - [ESP32-DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview)
   - LX106 (ESP8266)
+    - [ESP8266](https://www.espressif.com/zh-hans/products/hardware/esp8266ex/overview)
 
 ## C-SKY
   - CK610
