@@ -1,5 +1,21 @@
 # Release
 
+### [1.2.1](https://github.com/alibaba/AliOS-Things/releases/tag/v1.2.1)
+
+- [source code (zip) ](https://github.com/alibaba/AliOS-Things/archive/v1.2.1.zip)
+- [source code (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/v1.2.1.tar.gz)
+
+Highlights:
+- SIG BLE Mesh
+- Link Voice
+
+Other major enhancements included in v1.2.0:
+- MCU：Cortex-M7, KL27，RL78, RX600
+- Kernel: yaffs2 support
+- Protocols: BLE 5.0
+- Drivers: STM A+G combo sensor LSM6DSL, pressure sensor LPS22HB
+- Infrastructure: Keil／IAR makefile support
+
 ### [1.2.0](https://github.com/alibaba/AliOS-Things/releases/tag/v1.2.0)
 
 - [source code (zip) ](https://github.com/alibaba/AliOS-Things/archive/v1.2.0.zip)
