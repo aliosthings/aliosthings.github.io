@@ -1,5 +1,22 @@
 # 版本发布
 
+
+### [1.2.1](https://github.com/alibaba/AliOS-Things/releases/tag/v1.2.1)
+
+- [源代码 (zip) ](https://github.com/alibaba/AliOS-Things/archive/v1.2.1.zip)
+- [源代码 (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/v1.2.1.tar.gz)
+
+亮点:
+- SIG BLE Mesh
+- Link Voice
+
+v1.2.0 其他要点:
+- MCU：支持 Cortex-M7, KL27，RL78, RX600
+- 内核: 支持 yaffs2
+- 协议栈: BLE 5.0
+- 驱动: ST 6轴MEMS传感器 LSM6DSL, 气压传感器 LPS22HB
+- 基础设施: 支持 Keil／IAR makefile
+
 ### [1.2.0](https://github.com/alibaba/AliOS-Things/releases/tag/v1.2.0)
 
 - [源代码 (zip) ](https://github.com/alibaba/AliOS-Things/archive/v1.2.0.zip)
