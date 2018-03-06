@@ -5,6 +5,7 @@
 - Documentation
   - [Technical Overview](technical-overview.md)
   - [Hardware](hardware.md)
+  - [Modules](modules.md)
   - [Development Boards](boards.md)
 
 - Application
