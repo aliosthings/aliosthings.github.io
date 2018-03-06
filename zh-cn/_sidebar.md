@@ -5,7 +5,7 @@
 - 文档
   - [技术架构总览](zh-cn/technical-overview.md)
   - [硬件](zh-cn/hardware.md)
-  - [开发板](zh-cn/development-boards.md)
+  - [开发板](zh-cn/boards.md)
 
 - 应用
   - [场景](zh-cn/scenario.md)
