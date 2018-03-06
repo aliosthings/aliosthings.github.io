@@ -14,7 +14,7 @@ EMW3060 is a high performance cost-effective embedded Wi-Fi module released by M
 
 ### ESP-WROOM-32
 
-![ESP-WROOM-32](https://img.alicdn.com/tfs/TB1XhC9cmtYBeNjSspkXXbU8VXa-892-1200.png)
+![ESP-WROOM-32](https://img.alicdn.com/tfs/TB1zrdLch9YBuNjy0FfXXXIsVXa-595-800.png)
 
 Powered by Espressif’s most advanced SoC, ESP-WROOM-32 features high performance, a wide range of peripherals, Wi-Fi and Bluetooth radio, which provide a complete solution tailored to advanced IoT applications.
 
