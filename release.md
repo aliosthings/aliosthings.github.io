@@ -6,8 +6,8 @@
 - [source code (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/v1.2.1.tar.gz)
 
 Highlights:
-- SIG BLE Mesh
-- Link Voice
+- SIG BLE Mesh Preview
+- Link Voice Preview
 
 Other major enhancements included in v1.2.0:
 - MCU：Cortex-M7, KL27，RL78, RX600
