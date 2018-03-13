@@ -14,6 +14,7 @@
 - Resource
   - [Release](release.md)
   - [Community](community.md)
+  - [Technical Articles](articles.md)
 
 - About
   - [Contact](contact.md)
