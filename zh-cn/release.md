@@ -10,7 +10,7 @@
 - SIG BLE Mesh
 - Link Voice
 
-v1.2.0 其他要点:
+v1.2.1 其他要点:
 - MCU：支持 Cortex-M7, KL27，RL78, RX600
 - 内核: 支持 yaffs2
 - 协议栈: BLE 5.0

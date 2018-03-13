@@ -9,7 +9,7 @@ Highlights:
 - SIG BLE Mesh Preview
 - Link Voice Preview
 
-Other major enhancements included in v1.2.0:
+Other major enhancements included in v1.2.1:
 - MCU：Cortex-M7, KL27，RL78, RX600
 - Kernel: yaffs2 support
 - Protocols: BLE 5.0
