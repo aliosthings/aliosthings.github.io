@@ -8,8 +8,7 @@
 ```bash
 pip install aos-cube
 ```
-!> 请确认`pip`环境是基于 Python 2.7 的。  
-_注: 当您遇到权限问题，可能需要 `sudo` 来执行。_
+!> 请确认`pip`环境是基于 Python 2.7 的。如果遇到权限问题，可能需要 `sudo` 来执行。
 
 ## 配置环境
 
