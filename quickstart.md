@@ -8,8 +8,7 @@ First of all, it is recommended to install `aos-cube` globally, which helps deve
 ```bash
 pip install aos-cube
 ```
-!> Please make sure pip environment is based on Python 2.7.  
-_PS: Use `sudo` if there's any permission issue._
+!> Please make sure pip environment is based on Python 2.7. Use `sudo` if there's any permission issue.
 
 ## Setup environment
 
