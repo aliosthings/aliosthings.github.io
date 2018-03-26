@@ -61,4 +61,4 @@ To simplify the development of Starter Kit, AliOS Studio IDE is offered to users
 ![](https://img.alicdn.com/tfs/TB17EnugqmWBuNjy1XaXXXCbXXa-484-387.gif)
 
 Learn more here:  
-[Play Starter Kit with AliOS Studio](https://github.com/alibaba/AliOS-Things/wiki/starterkit-tutorial)
+[Play Starter Kit with AliOS Studio](https://github.com/alibaba/AliOS-Things/wiki/Starter-Kit-Tutorial)

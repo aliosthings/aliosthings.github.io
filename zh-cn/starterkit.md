@@ -58,4 +58,4 @@ AliOS Things Starter Kit板上集成了ST-LINK V2，用户无需额外花费外�
 
 ![](https://img.alicdn.com/tfs/TB17EnugqmWBuNjy1XaXXXCbXXa-484-387.gif)
 
-详见：[使用 AliOS Studio 开发 Starter Kit](https://github.com/alibaba/AliOS-Things/wiki/starterkit-tutorial)
+详见：[使用 AliOS Studio 开发 Starter Kit](https://github.com/alibaba/AliOS-Things/wiki/Starter-Kit-Tutorial)
