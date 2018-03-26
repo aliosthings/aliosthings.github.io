@@ -55,3 +55,10 @@ To simplify the development of Starter Kit, AliOS Studio IDE is offered to users
 | Dimension                     | 70*80mm                                                      |                                                              |
 | OS                            | AliOS Things                                                 |                                                              |
 | Application                   | Wireless control, Wireless sensor, Audio decode, G-sensor Games... | | |
+
+## GUI Demo
+
+![](https://img.alicdn.com/tfs/TB17EnugqmWBuNjy1XaXXXCbXXa-484-387.gif)
+
+Learn more here:  
+[Play Starter Kit with AliOS Studio](https://github.com/alibaba/AliOS-Things/wiki/starterkit-tutorial)

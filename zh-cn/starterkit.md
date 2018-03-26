@@ -53,3 +53,9 @@ AliOS Things Starter Kit板上集成了ST-LINK V2，用户无需额外花费外�
 | Dimension                     | 70*80mm                                                      |                                                              |
 | OS                            | AliOS Things                                                 |                                                              |
 | Application                   | Wireless control, Wireless sensor, Audio decode, G-sensor Games... | | |
+
+## GUI 示例
+
+![](https://img.alicdn.com/tfs/TB17EnugqmWBuNjy1XaXXXCbXXa-484-387.gif)
+
+详见：[使用 AliOS Studio 开发 Starter Kit](https://github.com/alibaba/AliOS-Things/wiki/starterkit-tutorial)
