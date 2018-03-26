@@ -7,4 +7,4 @@
 > AliOS 家族旗下面向 IoT 领域高可伸缩的物联网操作系统
 
 [GitHub](https://github.com/alibaba/AliOS-Things)
-[Get Started](#alios-things)
+[开始使用](#alios-things)
