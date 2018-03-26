@@ -7,7 +7,7 @@
   - [Hardware](hardware.md)
   - [Modules](modules.md)
   - [Development Boards](boards.md)
-  - [Starter Kit](starterkit.md)
+  - [**Starter Kit**](starterkit.md)
 
 - Application
   - [Scenarios](scenario.md)
