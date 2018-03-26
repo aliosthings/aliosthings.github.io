@@ -7,6 +7,7 @@
   - [硬件](zh-cn/hardware.md)
   - [模组](zh-cn/modules.md)
   - [开发板](zh-cn/boards.md)
+  - [Starter Kit](zh-cn/starterkit.md)
 
 - 应用
   - [场景](zh-cn/scenario.md)
