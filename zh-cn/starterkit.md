@@ -2,6 +2,10 @@
 
 Starter Kit是为AliOS Things量身打造的开发板，提供了丰富的板上资源，包含板级传感器，LCD屏幕（240\*240），Audio，板上WiFi模块。AliOS Things是 AliOS 家族旗下的、面向IoT领域的、高可伸缩的物联网操作系统，详情请见 [AliOS Things](https://github.com/alibaba/AliOS-Things)
 
+AliOS Things Starter Kit板上集成了ST-LINK V2，用户无需额外花费外接调试器。
+
+围绕AliOS Things Starter Kit阿里还提供了一套免费，极简的开发工具alios-studio，基于该工具用户可以完成从编译到烧录到调试的完整的IDE开发环境。
+
 ## 特性
 
 - MCU: STM32L433CCT6, 48LQFP, Cortex-M4, 80MHz
