@@ -14,6 +14,7 @@
 
 - 资源
   - [版本发布](zh-cn/release.md)
+  - [认证](zh-cn/certification.md)
   - [社区](zh-cn/community.md)
   - [技术文章](zh-cn/articles.md)
 

@@ -14,6 +14,7 @@
 
 - Resource
   - [Release](release.md)
+  - [Certification](certification.md)
   - [Community](community.md)
   - [Technical Articles](articles.md)
 
