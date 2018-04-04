@@ -22,7 +22,7 @@ AliOS Things Starter Kit板上集成了ST-LINK V2，用户无需额外花费外�
 
 ## 产品图片
 
-![](https://img.alicdn.com/tfs/TB14PI2gDtYBeNjy1XdXXXXyVXa-922-945.png)
+![](https://img.alicdn.com/tfs/TB1_KoTiFmWBuNjSspdXXbugXXa-3704-2422.jpg)
 
 ## 详细参数
 

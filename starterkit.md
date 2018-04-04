@@ -24,7 +24,7 @@ To simplify the development of Starter Kit, AliOS Studio IDE is offered to users
 
 ## Snapshot
 
-![](https://img.alicdn.com/tfs/TB14PI2gDtYBeNjy1XdXXXXyVXa-922-945.png)
+![](https://img.alicdn.com/tfs/TB1_KoTiFmWBuNjSspdXXbugXXa-3704-2422.jpg)
 
 ## Hardware Details
 
