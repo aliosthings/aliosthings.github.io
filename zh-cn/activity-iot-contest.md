@@ -4,9 +4,6 @@
 全国大学生物联网设计竞赛，是以学科竞赛推动专业建设、培养大学生创新能力为目标，面向全国高校大学生举办的全国性竞赛。  
 
 主办单位：教育部高等学校计算机类专业教学指导委员会  
-承办单位：上海交通大学（电子信息与电气工程学院）  
-协办单位：德州仪器半导体技术（上海）有限公司  
-
 竞赛官方网站：http://iot.sjtu.edu.cn
 
 ## 赛题
@@ -36,4 +33,4 @@ IoT 将成阿里新主赛道。请基于 LoRa、WiFi、蓝牙、MCU、2G 等硬�
 - 另外也可选用我们为此次竞赛准备的硬件参考平台  
   [GitHub Wiki: 使用 AliOS Things 在 MSP432 LaunchPad 上开发 IoT app](https://github.com/alibaba/AliOS-Things/wiki/使用-AliOS-Things-在-MSP432-LaunchPad-上开发-IoT-app)  
 
-  ![](https://img.alicdn.com/tfs/TB19VhYo_tYBeNjy1XdXXXXyVXa-324-441.jpg)
+  ![](https://img.alicdn.com/tfs/TB18br0oL5TBuNjSspmXXaDRVXa-758-585.jpg)
