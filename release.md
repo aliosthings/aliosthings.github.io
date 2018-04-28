@@ -1,5 +1,12 @@
 # Release
 
+### [1.2.2](https://github.com/alibaba/AliOS-Things/releases/tag/v1.2.2)
+
+- [source code (zip) ](https://github.com/alibaba/AliOS-Things/archive/v1.2.2.zip)
+- [source code (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/v1.2.2.tar.gz)
+
+Special version for [AliOS Things Starter Kit](starterkit) support.
+
 ### [1.2.1](https://github.com/alibaba/AliOS-Things/releases/tag/v1.2.1)
 
 - [source code (zip) ](https://github.com/alibaba/AliOS-Things/archive/v1.2.1.zip)
