@@ -33,4 +33,4 @@ IoT 将成阿里新主赛道。请基于 LoRa、WiFi、蓝牙、MCU、2G 等硬�
 - 另外也可选用我们为此次竞赛准备的硬件参考平台  
   [GitHub Wiki: 使用 AliOS Things 在 MSP432 LaunchPad 上开发 IoT app](https://github.com/alibaba/AliOS-Things/wiki/使用-AliOS-Things-在-MSP432-LaunchPad-上开发-IoT-app)  
 
-  ![](https://img.alicdn.com/tfs/TB18br0oL5TBuNjSspmXXaDRVXa-758-585.jpg)
+  ![](https://img.alicdn.com/tfs/TB1Nj.poN9YBuNjy0FfXXXIsVXa-3968-2976.jpg)

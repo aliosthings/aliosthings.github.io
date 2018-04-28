@@ -18,5 +18,8 @@
   - [社区](zh-cn/community.md)
   - [技术文章](zh-cn/articles.md)
 
+- 活动
+  - [物联网竞赛](zh-cn/activity-iot-contest.md)
+
 - 关于
   - [联系我们](zh-cn/contact.md)

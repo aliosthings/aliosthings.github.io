@@ -18,5 +18,8 @@
   - [Community](community.md)
   - [Technical Articles](articles.md)
 
+- Activities
+  - [IoT Contest](zh-cn/activity-iot-contest.md)
+
 - About
   - [Contact](contact.md)
