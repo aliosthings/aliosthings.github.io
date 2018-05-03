@@ -1,6 +1,25 @@
 # Release
 
+### [1.3.0](https://github.com/alibaba/AliOS-Things/releases/tag/v1.3.0)
+
+[ZIP Package](https://codeload.github.com/alibaba/AliOS-Things/zip/v1.3.0) MD5: e44fcbc05de0948f88f64494167413b3
+
+Highlights:
+- Link Kit v2.1.1 with ALCS/COTA/RRPC supported
+- CMSIS-RTOS for better ARM Architecture support
+- STM32Cube for easily porting new STM32 boards
+
+Other major enhancements included in v1.3.0:
+- Overall: STM32Cube
+- Kernel: CMSIS-RTOS Support, Tickless, spiffs/uffs
+- MCU:  RTL8710bn(WiFi SoC), Xtensa(8266), nRF52840(BLE 5.0 SoC)
+- Networking: GPRS@SAL, Link WAN(enhanced LoRaWAN)
+- Infrastructure: Keil/IAR Project Autogen, Python(scons) Build System
+- Middleware: Link Kit, GPS Framework, GUI(littlevGL)
+
 ### [1.2.2](https://github.com/alibaba/AliOS-Things/releases/tag/v1.2.2)
+
+[ZIP Package](https://github.com/alibaba/AliOS-Things/archive/v1.2.2.zip) MD5: 45bc6c0c362b99015c09c7e881fc7cc9
 
 - [source code (zip) ](https://github.com/alibaba/AliOS-Things/archive/v1.2.2.zip)
 - [source code (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/v1.2.2.tar.gz)
@@ -8,6 +27,8 @@
 Special version for [AliOS Things Starter Kit](starterkit) support.
 
 ### [1.2.1](https://github.com/alibaba/AliOS-Things/releases/tag/v1.2.1)
+
+[ZIP Package](https://github.com/alibaba/AliOS-Things/archive/v1.2.1.zip) MD5: 675d79f44b8ef931bbdd9b8655a64837
 
 - [source code (zip) ](https://github.com/alibaba/AliOS-Things/archive/v1.2.1.zip)
 - [source code (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/v1.2.1.tar.gz)
@@ -24,6 +45,8 @@ Other major enhancements included in v1.2.1:
 - Infrastructure: Keil／IAR makefile support
 
 ### [1.2.0](https://github.com/alibaba/AliOS-Things/releases/tag/v1.2.0)
+
+[ZIP Package](https://github.com/alibaba/AliOS-Things/archive/v1.2.0.zip) MD5: 36eefa823d9fea7927e9c2ea4b1c5503
 
 - [source code (zip) ](https://github.com/alibaba/AliOS-Things/archive/v1.2.0.zip)
 - [source code (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/v1.2.0.tar.gz)
@@ -45,6 +68,8 @@ Other major enhancements included in v1.2.0:
 
 ### [1.1.2](https://github.com/alibaba/AliOS-Things/releases/tag/v1.1.2)
 
+[ZIP Package](https://github.com/alibaba/AliOS-Things/archive/v1.1.2.zip) MD5: db334b0ee30c0273622ee72450c15916
+
 - [source code (zip)](https://github.com/alibaba/AliOS-Things/archive/v1.1.2.zip)
 - [souce code (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/v1.1.2.tar.gz)
 
@@ -65,6 +90,8 @@ Other major enhancements included in v1.1.2:
 
 ### [1.1.1](https://github.com/alibaba/AliOS-Things/releases/tag/aos1.1.1)
 
+[ZIP Package](https://github.com/alibaba/AliOS-Things/archive/aos1.1.1.zip) MD5: c447a6ec1a3af951b0b058830c90e316
+
 - [source code (zip)](https://github.com/alibaba/AliOS-Things/archive/aos1.1.1.zip)
 - [source code (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/aos1.1.1.tar.gz)
 
@@ -77,6 +104,8 @@ Major enhancements included in v1.1.1:
 - Testbed infrastructure, working with AliOS Studio IDE to provide enhanced multi-device develop/debug capability
 
 ### [1.1.0](https://github.com/alibaba/AliOS-Things/releases/tag/aos1.1.0)
+
+[ZIP Package](https://github.com/alibaba/AliOS-Things/archive/aos1.1.0.zip) MD5: c69d2fb18efc76df77c28c7fbec90f7b
 
 - [source code (zip)](https://github.com/alibaba/AliOS-Things/archive/aos1.1.0.zip)
 - [source code (tar.gz)](https://github.com/alibaba/AliOS-Things/archive/aos1.1.0.tar.gz)
