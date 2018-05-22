@@ -30,10 +30,12 @@ IoT 将成阿里新主赛道。请基于 LoRa、WiFi、蓝牙、MCU、2G 等硬�
 - IoT 套件  
   https://help.aliyun.com/product/30520.html  
   https://github.com/aliyun/iotkit-embedded  
-- 另外也可选用我们为此次竞赛准备的硬件参考平台  
+- 可以选用我们为此次竞赛准备的硬件参考平台  
+  1. 基础版：MSP432 Launchpad + 扩展板, TI 提供硬件资源及开发环境, 运行 AliOS Things  
   [GitHub Wiki: 使用 AliOS Things 在 MSP432 LaunchPad 上开发 IoT app](https://github.com/alibaba/AliOS-Things/wiki/使用-AliOS-Things-在-MSP432-LaunchPad-上开发-IoT-app)  
-
   ![](https://img.alicdn.com/tfs/TB1Nj.poN9YBuNjy0FfXXXIsVXa-3968-2976.jpg)
+  2. 进阶版：[AliOS Things Developer Kit](zh-cn/developerkit.md) 阿里提供全方位软硬件资源  
+  为希望深度了解 AliOS Things, 且更喜欢尝试新东西的同学准备，搭载极为丰富的硬件资源，配以强大的云端一体化开发能力。
 
 ## 交流
 * [技术交流群(微信)](http://o7spigzvd.bkt.clouddn.com/qr_wechat_100+.jpeg) - 人数过多，请联系管理员手动拉入

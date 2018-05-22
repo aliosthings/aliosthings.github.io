@@ -8,6 +8,7 @@
   - [Modules](modules.md)
   - [Development Boards](boards.md)
   - [**Starter Kit**](starterkit.md)
+  - [**Developer Kit**](developerkit.md)
 
 - Application
   - [Scenarios](scenario.md)
