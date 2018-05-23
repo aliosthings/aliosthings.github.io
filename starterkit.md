@@ -7,6 +7,7 @@ As for developing and debugging, Starter Kit has integrated ST-LINK V2, no need 
 
 To simplify the development of Starter Kit, AliOS Studio IDE is offered to users for the one stop developing experience, including building, firmware uploading and debugging.
 
+Learn more: [Play Starter Kit with AliOS Studio](https://github.com/alibaba/AliOS-Things/wiki/Starter-Kit-Tutorial)
 
 ## Features
 
@@ -59,6 +60,3 @@ To simplify the development of Starter Kit, AliOS Studio IDE is offered to users
 ## GUI Demo
 
 ![](https://img.alicdn.com/tfs/TB17EnugqmWBuNjy1XaXXXCbXXa-484-387.gif)
-
-Learn more here:  
-[Play Starter Kit with AliOS Studio](https://github.com/alibaba/AliOS-Things/wiki/Starter-Kit-Tutorial)

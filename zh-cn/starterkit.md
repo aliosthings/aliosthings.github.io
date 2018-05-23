@@ -4,7 +4,9 @@ Starter Kit是为AliOS Things量身打造的开发板，提供了丰富的板上
 
 AliOS Things Starter Kit板上集成了ST-LINK V2，用户无需额外花费外接调试器。
 
-围绕AliOS Things Starter Kit阿里还提供了一套免费，极简的开发工具alios-studio，基于该工具用户可以完成从编译到烧录到调试的完整的IDE开发环境。
+围绕AliOS Things Starter Kit阿里还提供了一套免费，极简的开发工具alios-studio，基于该工具用户可以完成从编译到烧录到调试的完整的IDE开发环境。  
+
+详见：[使用 AliOS Studio 开发 Starter Kit](https://github.com/alibaba/AliOS-Things/wiki/Starter-Kit-Tutorial)
 
 ## 特性
 
@@ -57,5 +59,3 @@ AliOS Things Starter Kit板上集成了ST-LINK V2，用户无需额外花费外�
 ## GUI 示例
 
 ![](https://img.alicdn.com/tfs/TB17EnugqmWBuNjy1XaXXXCbXXa-484-387.gif)
-
-详见：[使用 AliOS Studio 开发 Starter Kit](https://github.com/alibaba/AliOS-Things/wiki/Starter-Kit-Tutorial)
