@@ -27,9 +27,9 @@ Quick start: [Launch Developer Kit with AliOS Studio](https://github.com/alibaba
 
 ## Snapshot
 
-![](https://img.alicdn.com/tfs/TB1aX3gsNSYBuNjSspjXXX73VXa-2282-2844.jpg)
+![](https://img.alicdn.com/tfs/TB122RCtntYBeNjy1XdXXXXyVXa-2373-3121.png)
 
-![](https://img.alicdn.com/tfs/TB1cwPwsFGWBuNjy0FbXXb4sXXa-2430-3254.jpg)
+![](https://img.alicdn.com/tfs/TB1hAjQsY9YBuNjy0FgXXcxcXXa-2381-3143.png)
 
 ## Hardware Details
 
