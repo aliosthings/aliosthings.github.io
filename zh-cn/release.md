@@ -1,5 +1,13 @@
 # 版本发布
 
+### [1.3.1](https://github.com/alibaba/AliOS-Things/releases/tag/v1.3.1)
+
+[ZIP Package](https://codeload.github.com/alibaba/AliOS-Things/zip/v1.3.1) MD5: 9db203c1f72061ba0a0b3270a5b77d25
+
+Highlights:
+- Link Kit update
+- Link WAN update
+
 ### [1.3.0](https://github.com/alibaba/AliOS-Things/releases/tag/v1.3.0)
 
 [ZIP Package](https://codeload.github.com/alibaba/AliOS-Things/zip/v1.3.0) MD5: e44fcbc05de0948f88f64494167413b3
