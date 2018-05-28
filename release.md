@@ -2,7 +2,7 @@
 
 ### [1.3.1](https://github.com/alibaba/AliOS-Things/releases/tag/v1.3.1)
 
-[ZIP Package](https://codeload.github.com/alibaba/AliOS-Things/zip/v1.3.1) MD5: 9db203c1f72061ba0a0b3270a5b77d25
+[ZIP Package](https://codeload.github.com/alibaba/AliOS-Things/zip/v1.3.1) MD5: bd88b43185bdd2a57ee78a34b7f94589
 
 Highlights:
 - Link Kit update
