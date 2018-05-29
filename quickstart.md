@@ -3,13 +3,6 @@
 This guide offers a glance at AliOS Things, by running directly on a linux machine.  
 If you are on Windows or Mac, maybe you'd like to turn directly to our [IDE](https://github.com/alibaba/AliOS-Things/wiki/AliOS-Things-Studio).
 
-## Install aos-cube
-First of all, it is recommended to install `aos-cube` globally, which helps developing with AliOS Things Studio in the future.
-```bash
-pip install aos-cube
-```
-!> Please make sure pip environment is based on Python 2.7. Use `sudo` if there's any permission issue.
-
 ## Setup environment
 
 You can either try [Setup Script for Linux/Mac](http://p28phe5s5.bkt.clouddn.com/setup_linux_osx.sh), or manually do steps below,  
@@ -24,6 +17,25 @@ sudo apt-get install -y libreadline-dev libreadline-dev:i386
 sudo apt-get install -y python-pip
 sudo apt-get install -y minicom
 ```
+
+## Install aos-cube and relevant package 
+First of all, it is recommended to install `aos-cube` globally, which helps developing with AliOS Things Studio in the future.
+```bash
+$ pip install setuptools
+$ pip install wheel
+$ pip install aos-cube
+```
+!> Please make sure pip environment is based on Python 2.7 64bits. Use `sudo` if there's any permission issue.
+*> Please make sure "esptool, pyserial, scons" and "aos-cube" are installed sucessfully when run 'pip install aos-cube', or you can install them one by one if you meet problems.
+```bash
+Tips:
+if you want to upgrade aos-cube, please see below steps:
+   $ pip install --upgrade setuptools
+   $ pip install --upgrade wheel
+   $ pip install --upgrade aos-cube
+
+```
+
 
 ## Run
 
