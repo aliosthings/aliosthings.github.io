@@ -27,7 +27,7 @@ $ pip install aos-cube
 ```
 !> Please make sure pip environment is based on Python 2.7 64bits. Use `sudo` if there's any permission issue.
 
-!> Please make sure "esptool, pyserial, scons" and "aos-cube" are installed sucessfully when run 'pip install aos-cube', or you can install them one by one if you meet problems.
+!> Please make sure `esptool, pyserial, scons` and `aos-cube` are installed sucessfully when run `pip install aos-cube`, or you can install them one by one if you meet problems.
 
 ```bash
 if you want to upgrade aos-cube, please see below steps:
