@@ -3,12 +3,6 @@
 本文通过直接在一台 linux 机器上运行 AliOS Things 来带您快速体验它。  
 如果您在 Windows 或 Mac 上工作，也可以使用我们提供的[IDE](https://github.com/alibaba/AliOS-Things/wiki/AliOS-Things-Studio)。
 
-## 安装 aos-cube
-首先, 用 python 包管理器 `pip` 来安装 `aos-cube` 在全局环境，以便于后续使用 AliOS Things Studio 进行开发。
-```bash
-pip install aos-cube
-```
-!> 请确认`pip`环境是基于 Python 2.7 的。如果遇到权限问题，可能需要 `sudo` 来执行。
 
 ## 配置环境
 
@@ -24,6 +18,15 @@ sudo apt-get install -y libreadline-dev libreadline-dev:i386
 sudo apt-get install -y python-pip
 sudo apt-get install -y minicom
 ```
+
+## 安装 aos-cube
+首先, 用 python 包管理器 `pip` 来安装 `aos-cube` 在全局环境，以便于后续使用 AliOS Things Studio 进行开发。
+```bash
+$ pip install setuptools
+$ pip install wheel
+$ pip install aos-cube
+```
+!> 请确认`pip`环境是基于 Python 2.7 的。如果遇到权限问题，可能需要 `sudo` 来执行。
 
 ## 下载代码并编译运行
 
