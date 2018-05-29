@@ -26,10 +26,11 @@ $ pip install wheel
 $ pip install aos-cube
 ```
 !> Please make sure pip environment is based on Python 2.7 64bits. Use `sudo` if there's any permission issue.
+
 *> Please make sure "esptool, pyserial, scons" and "aos-cube" are installed sucessfully when run 'pip install aos-cube', or you can install them one by one if you meet problems.
+
 ```bash
-Tips:
-if you want to upgrade aos-cube, please see below steps:
+   if you want to upgrade aos-cube, please see below steps:
    $ pip install --upgrade setuptools
    $ pip install --upgrade wheel
    $ pip install --upgrade aos-cube
