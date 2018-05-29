@@ -18,8 +18,8 @@ sudo apt-get install -y python-pip
 sudo apt-get install -y minicom
 ```
 
-## Install aos-cube and relevant packages
-It is recommended to install `aos-cube` globally, which helps developing with AliOS Things Studio in the future.
+## Install packages
+It is recommended to install `aos-cube` and `relevant packages` globally, which helps developing with AliOS Things Studio in the future.
 ```bash
 $ pip install setuptools
 $ pip install wheel
