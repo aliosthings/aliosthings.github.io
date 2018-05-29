@@ -36,6 +36,7 @@ $ pip install --upgrade wheel
 $ pip install --upgrade aos-cube
 ```
 
+!> Please make sure `esptool, pyserial, scons` and `aos-cube` are installed sucessfully when run `pip install aos-cube`, or you can install them one by one if you meet problems.
 
 ## Run
 
