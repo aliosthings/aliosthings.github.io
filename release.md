@@ -2,7 +2,7 @@
 
 ### [1.3.1](https://github.com/alibaba/AliOS-Things/releases/tag/v1.3.1)
 
-[ZIP Package](https://codeload.github.com/alibaba/AliOS-Things/zip/v1.3.1) MD5: bd88b43185bdd2a57ee78a34b7f94589
+[ZIP Package](https://codeload.github.com/alibaba/AliOS-Things/zip/v1.3.1) MD5: 9dac76d6715c7a24567798f91a7e0c41
 
 Highlights:
 - Link Kit update
@@ -10,7 +10,7 @@ Highlights:
 
 ### [1.3.0](https://github.com/alibaba/AliOS-Things/releases/tag/v1.3.0)
 
-[ZIP Package](https://codeload.github.com/alibaba/AliOS-Things/zip/v1.3.0) MD5: e44fcbc05de0948f88f64494167413b3
+[ZIP Package](https://codeload.github.com/alibaba/AliOS-Things/zip/v1.3.0) MD5: 376e7541fdc66161a0a9da274bdd4b84
 
 Highlights:
 - Link Kit v2.1.1 with ALCS/COTA/RRPC supported
