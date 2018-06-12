@@ -10,7 +10,7 @@
   - [开发板](zh-cn/boards.md)
   - [**Starter Kit**](zh-cn/starterkit.md)
   - [**Developer Kit**](zh-cn/developerkit.md)
-  - [BoneEngine@Lite介绍](zh-cn/boneengine-lite-tech.md)
+  - [BoneEngine@Lite](zh-cn/boneengine-lite-tech.md)
 
 - 应用
   - [场景](zh-cn/scenario.md)

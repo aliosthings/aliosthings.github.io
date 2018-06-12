@@ -26,7 +26,3 @@
 
 - About
   - [Contact](contact.md)
-
-
-boneengine_firstjs.md
-boneengine-lite-tech.md

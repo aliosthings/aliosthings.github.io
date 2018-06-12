@@ -1,4 +1,4 @@
-# BoneEngine@Lite技术介绍
+# BoneEngine@Lite
 
 **关键词说明** ：
 
@@ -6,7 +6,7 @@ TinyEngine： BoneEngine@Lite的别名用语，等同于BoneEngine@Lite。
 
 
 
-## BoneEngine@Lite背景介绍：
+## BoneEngine@Lite背景介绍
 
 BoneEngine@Lite是一个专门为嵌入式系统设计且面向IOT业务的高性能JavaScript引擎，同时针对主流的嵌入式操作系统提供一体化的开发框架，提供丰富的扩展接口及调试手段，以方便开发者开发。
 
@@ -73,7 +73,7 @@ BoneEngine@Lite的主要特点有:
 
 
 
-### BoneEngine@Lite系统框图
+## BoneEngine@Lite系统框图
 
 ![image | left](https://gw.alicdn.com/tfs/TB14Cb5xamWBuNjy1XaXXXCbXXa-1992-1076.jpg)
 
@@ -120,7 +120,7 @@ OSAL（系统抽象层）将 BoneEngine 所需的与操作系统的相关函数�
 
 
 
-### BoneEngine@Lite 应用编程框架
+## BoneEngine@Lite 应用编程框架
 
 应用编程框架是 BoneEngine@Lite 最主要部分，既包括JS应用的运行环境，也包含了大量的扩展模块，扩展模块通过API的方式暴露给JS应用开发者调用。框架的目的在于：一方面隔离应用对底层硬件和操作系统的依赖，一方面封装大量的扩展接口，方便让开发者在JS层调用，另外，扩展模块由Native C实现，可以提高性能，整个框架包括 :
 
@@ -136,7 +136,7 @@ OSAL（系统抽象层）将 BoneEngine 所需的与操作系统的相关函数�
   - 硬件驱动代理：应用程调用硬件驱动的代理，
   - Cloud-client ：通过MQTT和阿里 Link Platform 平台连接
 
-### OS 抽象及硬件设备抽象
+## OS 抽象及硬件设备抽象
 
 ![image | left](https://gw.alicdn.com/tfs/TB1xyKIxkyWBuNjy0FpXXassXXa-904-548.jpg)
 
@@ -167,7 +167,9 @@ OS抽象层设计原则：
 
   
 
-### 应用管理 AppManager AppManager管理应用的安装，下载，运行.
+## 应用管理 AppManager
+
+AppManager管理应用的安装，下载，运行.
 
 ![image | left](https://gw.alicdn.com/tfs/TB1nMhUxgmTBuNjy1XbXXaMrVXa-954-696.jpg)
 
@@ -201,7 +203,9 @@ drivers
    JS应用需要使用到的设备对象模块，与具体硬件相关，操作buildin的hw对象
 ```
 
-### 板级配置管理 BoardManager
+
+
+## 板级配置管理 BoardManager
 
 板级配置管理服务主要负责：
 
@@ -241,7 +245,9 @@ drivers
 
 board\_config.json 配置文件可以和APP-PACK一起下发，也可以在出厂时直接烧写，如果系统没有该配置文件，使用缺省映射。
 
-### Javascript Engine
+
+
+## Javascript Engine for BoneEngine@Lite
 
 Javascript Engine 专门为资源有限的设备提供的轻量级的 Javascript 引擎，相对于V8，SpideMonkey 功能强大的JS引擎，BoneEngine@Lite 不支持JIT功能，但是对JS语法集支持做了精简，而针对IoT特定需求，对硬件驱动，操作系统函数，以及MQTT，MESH等功能模块实现了JS语法扩展，开发者可以直接通过JS API调用这些功能模块
 
@@ -254,57 +260,3 @@ BoneEngine@Lite 具有如下特点：
 - JS 支持能力：面向IOT的 ES 精简语法 ，CommonJS 支持，IoT 内置模块
 
   
-
-### 如何开发一个BoneEngine@Lite的javascript应用
-
-- 基于alios编译并下载BoneEngine@Lite固件到BoneEngine@Lite支持的硬件上（例如mk3060，esp32devkit，developerkit等）。
-
-  - 下面以 alios 的developerkit开发板举例编译和下载命令：
-  - 编译：```aos make BoneEngine@Lite_app@developerkit```
-  - 下载：```aos download BoneEngine@Lite_app@developerkit```
-
-- 通过IDE或者be-cli来开发javascript应用。
-
-  这部分内容建议参考文档的《通过be-cli调试javascript应用》章节。
-
-  
-
-### 一个简单的javascript例子
-
-为了使同学们有更加感官的认识BoneEngine@Lite，下面通过一个js例子程序来演示如何在aos developer kit开发板上面使led每隔一秒闪烁。
-
-- 硬件环境：一款aos things的developer kit开发板
-
-- javascript程序：
-
-  ```javascript
-  console.log('This a demo javascript for bone-engine\n');
-  console.log('this demo run on developerkit to blink led every second');
-  
-  var index = 0;
-  var led_handle = GPIO.open('led');
-  GPIO.write(led_handle,0);
-  setInterval(function() {
-  	index = 1-index;
-  	GPIO.write(led_handle,index);
-  	console.log('led blink every seconds...............');
-  }, 1000);
-  console.log('end gpio test........................');
-  ```
-
-- 运行
-
-  - 参考文档《如何通过be-cli调试javascript应用》通过stlink usb口更新该javascipt文件到developerkit模组中 ```be push app.bin```
-  - 查看LED的效果和串口日志，可以看到led灯每隔一秒闪烁。
-
-- 源码解析
-
-  console.log：打印log日志
-
-  GPIO.open('led'): 获取led对应的gpio端口号，这个函数会读取解析板级配置文件board_config.json
-
-  GPIO.write(led_handle,0)：将led对应的gpio拉低。
-
-  setInterval（）：开启一个定时器，每隔一秒间隔将led的gpio拉高拉低。
-
-- 总结：通过这个javascript程序可以看到，开发者无需了解底层硬件驱动的实现细节，而只需关注led灯这个对象，让开发者尽量关注应用本身的开发而无需考虑硬件驱动的实现。BoneEngine@Lite的初衷也是为了降低物联网开发的门槛，让物联网开发如开发web应用一样简单。

@@ -1,6 +1,6 @@
-# 使用BoneEngine@Lite快速实现LED闪灯的例子
+# 第一个JS应用
 
-本文介绍如果基于AliOS-Things + BoneEngine@Lite实现一个GPIO控制LED闪灯的例子。
+本文展示了基于AliOS-Things + BoneEngine@Lite实现一个通过GPIO控制LED闪灯的例子。
 
 
 
