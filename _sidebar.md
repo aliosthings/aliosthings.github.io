@@ -1,6 +1,7 @@
 - Getting started
   - [Quick start](quickstart.md)
   - [Hello world](helloworld.md)
+  - [Getting started with javascript](boneengine_firstjs.md)
 
 - Documentation
   - [Technical Overview](technical-overview.md)
@@ -9,7 +10,8 @@
   - [Development Boards](boards.md)
   - [**Starter Kit**](starterkit.md)
   - [**Developer Kit**](developerkit.md)
-
+  - [BoneEngine@Lite](boneengine-lite-tech.md)
+  
 - Application
   - [Scenarios](scenario.md)
 
@@ -24,3 +26,7 @@
 
 - About
   - [Contact](contact.md)
+
+
+boneengine_firstjs.md
+boneengine-lite-tech.md
