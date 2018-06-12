@@ -1,6 +1,7 @@
 - Getting started
   - [Quick start](quickstart.md)
   - [Hello world](helloworld.md)
+  - [Getting started with javascript](zh-cn/boneengine_firstjs.md)
 
 - Documentation
   - [Technical Overview](technical-overview.md)
@@ -9,7 +10,8 @@
   - [Development Boards](boards.md)
   - [**Starter Kit**](starterkit.md)
   - [**Developer Kit**](developerkit.md)
-
+  - [BoneEngine@Lite](zh-cn/boneengine-lite-tech.md)
+  
 - Application
   - [Scenarios](scenario.md)
 
