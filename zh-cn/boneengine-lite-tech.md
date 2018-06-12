@@ -75,7 +75,7 @@ BoneEngine@Lite的主要特点有:
 
 ## BoneEngine@Lite系统框图
 
-![image | left](https://gw.alicdn.com/tfs/TB14Cb5xamWBuNjy1XaXXXCbXXa-1992-1076.jpg)
+![image | left](https://gw.alicdn.com/tfs/TB1OfxbxqmWBuNjy1XaXXXCbXXa-2812-1529.png)
 
 
 
@@ -138,7 +138,7 @@ OSAL（系统抽象层）将 BoneEngine 所需的与操作系统的相关函数�
 
 ## OS 抽象及硬件设备抽象
 
-![image | left](https://gw.alicdn.com/tfs/TB1xyKIxkyWBuNjy0FpXXassXXa-904-548.jpg)
+![image | left](https://gw.alicdn.com/tfs/TB1u3ZtxhGYBuNjy0FnXXX5lpXa-1364-855.png)
 
 OSAL 与硬件抽象层的目的是：
 
@@ -170,7 +170,7 @@ OS抽象层设计原则：
 
 AppManager管理应用的安装，下载，运行.
 
-![image | left](https://gw.alicdn.com/tfs/TB1nMhUxgmTBuNjy1XbXXaMrVXa-954-696.jpg)
+![image | left](https://gw.alicdn.com/tfs/TB1BwXbxqmWBuNjy1XaXXXCbXXa-1383-1037.png)
 
 在 BoneEngine@Lite 中，为了便于JS应用程序的安全存储，分发和管理，对应用程序打成APP-PACK，该包中，包含了文件应用程序的文件列表，版本，包签名证书等信息。在云端和本地开发环境包含了打包和拆包工具，可以把整个JS程序，board-cfg.json配置文件以及其他库文件打包成整个应用包。
 
@@ -212,7 +212,7 @@ drivers
 - 生成 BoneEngine 的静态HW全局JS对象
 - 管理板级硬件资源初始化，资源分配以及释放
 
-![image | left](https://gw.alicdn.com/tfs/TB1N3NUxgmTBuNjy1XbXXaMrVXa-998-614.jpg)
+![image | left](https://gw.alicdn.com/tfs/TB1YMlbxqmWBuNjy1XaXXXCbXXa-1428-906.png)
 
 典型板级配置 board\_config.json 文件如下：
 

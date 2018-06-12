@@ -45,7 +45,7 @@ be_cli工具是BoneEngine@Lite用于调试js代码的工具。
 
 ### 2.2 配置board_config.json 硬件配置文件
 
-根据硬件版型配置需要控制的gpio口和定义对象ID（led）。例如developerkit板子的gpio 62连接了一个led，因此这里port 为60。
+根据硬件版型配置需要控制的gpio口和定义对象ID（led）。例如developerkit板子的gpio 67连接了一个led，因此这里port 为67。
 
 ```javascript
 "GPIO":[
