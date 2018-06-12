@@ -4,7 +4,7 @@
 
 
 
-## 1 准备工作：
+## 1 准备工作
 
 * 下载AliOS-Things的代码。
 * 一款支持BoneEngine@Lite的硬件/模组。如developerkit，mk3060，esp32devkitc。
@@ -29,7 +29,7 @@ be_cli工具是BoneEngine@Lite用于调试js代码的工具。
 
 * Windows系统：
 
-  参考文档 [如何在windows下准备be-cli应用开发环境.md](如何在windows下准备be-cli应用开发环境)
+  参考文档 [如何在windows下准备be-cli应用开发环境.md](zh-cn/be-cli-for-windows-install.md)
 
 
 
@@ -43,11 +43,11 @@ be_cli工具是BoneEngine@Lite用于调试js代码的工具。
 
 
 
-###2.2 配置board_config.json 硬件配置文件
+### 2.2 配置board_config.json 硬件配置文件
 
 根据硬件版型配置需要控制的gpio口和定义对象ID（led）。例如developerkit板子的gpio 62连接了一个led，因此这里port 为60。
 
-```"GPIO":[
+```javascript
 "GPIO":[
 		{
 			"id":"led",
