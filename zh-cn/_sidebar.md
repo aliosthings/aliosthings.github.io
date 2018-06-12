@@ -1,6 +1,6 @@
 - 入门
   - [快速开始](zh-cn/quickstart.md)
-  - [第一个应用](zh-cn/helloworld.md)
+  - [第一个C应用](zh-cn/helloworld.md)
   - [第一个JS应用](zh-cn/boneengine_firstjs.md)
 
 - 文档
