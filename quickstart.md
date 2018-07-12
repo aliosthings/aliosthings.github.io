@@ -21,21 +21,21 @@ sudo apt-get install -y minicom
 ## Install packages
 It is recommended to install `aos-cube` and `relevant packages` globally, which helps developing with AliOS Things Studio in the future.
 ```bash
-$ pip install setuptools
-$ pip install wheel
-$ pip install aos-cube
+Pleae upgrade pip to latest firstly by below command.
+$python -m pip install --upgrade pip
+
+$ python -m pip install setuptools
+$ python -m pip install wheel
+$ python -m pip install aos-cube
 ```
 **`[Note]`** Please make sure pip environment is based on Python 2.7 64bits. Use `sudo` if there's any permission issue.
 
 ```bash
 if you want to upgrade aos-cube, please see below steps:
 
-Pleae upgrade pip to latest firstly by below command.
-$python -m pip install --upgrade pip
-
-$ pip install --upgrade setuptools
-$ pip install --upgrade wheel
-$ pip install --upgrade aos-cube
+$ python -m pip install --upgrade setuptools
+$ python -m pip install --upgrade wheel
+$ python -m pip install --upgrade aos-cube
 ```
 **`[Note]`** Please make sure `esptool, pyserial, scons` and `aos-cube` are installed sucessfully when run `pip install aos-cube`, or you can install them one by one if you meet problems.
 
