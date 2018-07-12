@@ -30,6 +30,9 @@ $ pip install aos-cube
 ```bash
 if you want to upgrade aos-cube, please see below steps:
 
+Pleae upgrade pip to latest firstly by below command.
+$python -m pip install --upgrade pip
+
 $ pip install --upgrade setuptools
 $ pip install --upgrade wheel
 $ pip install --upgrade aos-cube
