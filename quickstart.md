@@ -23,6 +23,9 @@ It is recommended to install `aos-cube` and `relevant packages` globally, which 
 ```bash
 Pleae upgrade pip to latest firstly by below command.
 $python -m pip install --upgrade pip
+It is also supported for users to choose which version you prefer, example as below:
+$python -m pip install aos-cube==0.2.45
+
 
 $ python -m pip install setuptools
 $ python -m pip install wheel
