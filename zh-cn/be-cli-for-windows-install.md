@@ -74,11 +74,11 @@ mk3060是普通的串口，在windows下插上板子会自动下载安装更新�
 
 ## 6 安装be-cli工具
 
-npm install be-cli -g -P
+npm install be-cli@0.1.32 -g -P
 
 如果长时间安装不到be-cli，请使用下面的更换代理镜像命令：
 
-npm install be-cli -g -P --registry=https://registry.npm.taobao.org
+npm install be-cli@0.1.32 -g -P --registry=https://registry.npm.taobao.org
 
 该命令不会更改你本地原始的镜像代理，只是本次下载安装be-cli生效。
 
@@ -88,7 +88,7 @@ npm install be-cli -g -P --registry=https://registry.npm.taobao.org
 
 ## FAQ:
 
-如果在执行npm install be-cli -g -P --registry=https://registry.npm.taobao.org 出现下面错误，则要去检查python有无安装，或者版本问题，或者环境变量问题
+如果在执行npm install be-cli@0.1.32 -g -P --registry=https://registry.npm.taobao.org 出现下面错误，则要去检查python有无安装，或者版本问题，或者环境变量问题
 
 ```
 gyp ERR! stack     at failNoPython (D:\Program Files\nodejs\node_modules\npm\nod
@@ -105,7 +105,7 @@ gyp ERR! node-gyp -v v1.0.3
 gyp ERR! not ok
 ```
 
-如果在执行npm install be-cli -g -P --registry=https://registry.npm.taobao.org 出现下面错误，则要去检查VC编译环境是否安装妥当
+如果在执行npm install be-cli@0.1.32 -g -P --registry=https://registry.npm.taobao.org 出现下面错误，则要去检查VC编译环境是否安装妥当
 
 ```
 在此解决方案中一次生成一个项目。若要启用并行生成，请添加“/m”开关。 
