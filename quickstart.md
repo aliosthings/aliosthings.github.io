@@ -42,6 +42,10 @@ $ python -m pip install --upgrade aos-cube
 ```
 **`[Note]`** Please make sure `esptool, pyserial, scons` and `aos-cube` are installed sucessfully when run `pip install aos-cube`, or you can install them one by one if you meet problems.
 
+```bash
+pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/ --upgrade pip
+```
+
 ## Run
 
 ```bash
