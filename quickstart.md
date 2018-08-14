@@ -56,10 +56,12 @@ cd AliOS-Things
 aos make helloworld@linuxhost
 ./out/helloworld@linuxhost/binary/helloworld@linuxhost.elf
 ```
-**`[Note]`** Please use below domestic git source if you meet network issue
+
+?> _Note_Please use below domestic git source if you meet network issue
 ```bash
  git clone https://gitee.com/alios-things/AliOS-Things.git
-```bash
+```
+
 
 ## Result
 
