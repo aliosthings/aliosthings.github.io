@@ -19,6 +19,7 @@ sudo apt-get install -y minicom
 
 if meet network issue, you can download and install by manually, refer to 'https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/'
 For pip install, also download via 'https://mirrors.aliyun.com/pypi/simple/pip/' instead of 'https://pypi.org/project/pip/#files'
+then use `python setup.py install` to install pip
 ```
 
 ## Install packages
@@ -51,6 +52,7 @@ python -m pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyu
 pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   setuptools
 pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   wheel
 pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   aos-cube
+
 pip install  --trusted-host pypi.doubanio.com -i  http://pypi.doubanio.com/simple/  aos-cube==0.2.50
 
 ```
