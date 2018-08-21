@@ -17,7 +17,8 @@ sudo apt-get install -y libreadline-dev libreadline-dev:i386
 sudo apt-get install -y python-pip
 sudo apt-get install -y minicom
 
-if meet network issue, you can download and install by manually, refer to https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/. For pip install, also download via 'https://mirrors.aliyun.com/pypi/simple/pip/' instead of 'https://pypi.org/project/pip/#files'
+if meet network issue, you can download and install by manually, refer to [How-to-install-python2.7-on-ubuntu](https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/). 
+For pip install, also download via 'https://mirrors.aliyun.com/pypi/simple/pip/' instead of 'https://pypi.org/project/pip/#files'
 ```
 
 ## Install packages
