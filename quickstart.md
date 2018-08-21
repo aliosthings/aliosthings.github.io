@@ -16,6 +16,8 @@ sudo apt-get install -y libncurses5-dev libncurses5-dev:i386
 sudo apt-get install -y libreadline-dev libreadline-dev:i386
 sudo apt-get install -y python-pip
 sudo apt-get install -y minicom
+
+if meet network issue, you can download and install by manually, refer to https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/. For pip install, also download via 'https://mirrors.aliyun.com/pypi/simple/pip/' instead of 'https://pypi.org/project/pip/#files'
 ```
 
 ## Install packages
@@ -31,7 +33,7 @@ $ python -m pip install setuptools
 $ python -m pip install wheel
 $ python -m pip install aos-cube
 ```
-**`[Note]`** Please make sure pip environment is based on Python 2.7 64bits. Use `sudo` if there's any permission issue.
+**`Note:`** Please make sure pip environment is based on Python 2.7 64bits.
 
 ```bash
 if you want to upgrade aos-cube, please see below steps:
@@ -40,12 +42,16 @@ $ python -m pip install --upgrade setuptools
 $ python -m pip install --upgrade wheel
 $ python -m pip install --upgrade aos-cube
 ```
-**`[Note]`** Please make sure `esptool, pyserial, scons` and `aos-cube` are installed sucessfully when run `pip install aos-cube`, or you can install them one by one if you meet problems.
+**`Note:`** Please make sure `esptool, pyserial, scons` and `aos-cube` are installed sucessfully when run `pip install aos-cube`, or you can install them one by one if you meet problems.
 
-**`[Note]`** If you meet network issue, you can use below source to install/upgrade pip/aos-cube.
+**`Note:`** If you meet network issue, you can use below source to install/upgrade pip/aos-cube.
 ```bash
-pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/ --upgrade pip
-pip install  --trusted-host pypi.doubanio.com -i  http://pypi.doubanio.com/simple/aos-cube/simple/ --upgrade aos-cube
+python -m pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/ --upgrade pip
+pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   setuptools
+pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   wheel
+pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   aos-cube
+pip install  --trusted-host pypi.doubanio.com -i  http://pypi.doubanio.com/simple/  aos-cube==0.2.50
+
 ```
 
 ## Run
@@ -57,7 +63,7 @@ aos make helloworld@linuxhost
 ./out/helloworld@linuxhost/binary/helloworld@linuxhost.elf
 ```
 
-?>_Note_Please use below domestic git source if you meet network issue
+Note: Please use below domestic git source if you meet network issue
 ```bash
  git clone https://gitee.com/alios-things/AliOS-Things.git
 ```
