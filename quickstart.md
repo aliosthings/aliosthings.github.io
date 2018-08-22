@@ -12,9 +12,9 @@ e.g. on a Ubuntu 16.04 LTS (Xenial Xerus) 64-bit PC, please make sure pip enviro
 sudo apt-get install -y python
 sudo apt-get install -y python-pip
 ```
-*`Note:`*
-1) If meet network issue, you can download python and install it by manually, refer to 'https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/'
-2) For pip install, also download via 'https://mirrors.aliyun.com/pypi/simple/pip/' instead of 'https://pypi.org/project/pip/#files'
+**Note:**
+- If meet network issue, you can download python and install it by manually, refer to 'https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/'
+- For pip install, also download via 'https://mirrors.aliyun.com/pypi/simple/pip/' instead of 'https://pypi.org/project/pip/#files'
 then use `python setup.py install` to install pip. 
 
 ## Install packages
@@ -38,7 +38,7 @@ $ python -m pip install --upgrade wheel
 $ python -m pip install --upgrade aos-cube
 ```
 
-*`Note:`* If you meet network issue, you can use below source to install/upgrade pip/aos-cube.
+**Note:** If you meet network issue, you can use below source to install/upgrade pip/aos-cube.
 ```bash
 python -m pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/ --upgrade pip
 pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   setuptools
@@ -49,7 +49,8 @@ pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi
 pip install  --trusted-host pypi.doubanio.com -i  http://pypi.doubanio.com/simple/  aos-cube
 ```
 
-*`Result:`*  use `pip list` to show more as below:
+**Result:**  use `pip list` to show more as below
+```
 aos-cube         0.2.50
 certifi          2018.4.16
 chardet          3.0.4
@@ -66,7 +67,7 @@ urllib3          1.23
 virtualenv       16.0.0
 virtualenv-clone 0.3.0
 wheel            0.31.1
-
+```
 
 ## Run
 
