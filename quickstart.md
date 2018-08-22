@@ -49,9 +49,7 @@ pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi
 pip install  --trusted-host pypi.doubanio.com -i  http://pypi.doubanio.com/simple/  aos-cube
 ```
 
-[Result], use `pip list` to show more as below
-Package          Version
----------------- ---------
+*`Result:`*  use `pip list` to show more as below:
 aos-cube         0.2.50
 certifi          2018.4.16
 chardet          3.0.4
