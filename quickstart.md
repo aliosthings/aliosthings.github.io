@@ -6,55 +6,47 @@ If you are on Windows or Mac, maybe you'd like to turn directly to our [IDE](htt
 ## Setup environment
 
 You can either try [Setup Script for Linux/Mac](http://p28phe5s5.bkt.clouddn.com/setup_linux_osx.sh), or manually do steps below,  
-e.g. on a Ubuntu 16.04 LTS (Xenial Xerus) 64-bit PC
+e.g. on a Ubuntu 16.04 LTS (Xenial Xerus) 64-bit PC, please make sure pip environment is based on Python 2.7 64bits.
 
 ```bash
 sudo apt-get install -y python
-sudo apt-get install -y gcc-multilib
-sudo apt-get install -y libssl-dev libssl-dev:i386
-sudo apt-get install -y libncurses5-dev libncurses5-dev:i386
-sudo apt-get install -y libreadline-dev libreadline-dev:i386
 sudo apt-get install -y python-pip
-sudo apt-get install -y minicom
-
-if meet network issue, you can download and install by manually, refer to 'https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/'
-For pip install, also download via 'https://mirrors.aliyun.com/pypi/simple/pip/' instead of 'https://pypi.org/project/pip/#files'
-then use `python setup.py install` to install pip
 ```
+*`Note:`*
+1) If meet network issue, you can download python and install it by manually, refer to 'https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/'
+2) For pip install, also download via 'https://mirrors.aliyun.com/pypi/simple/pip/' instead of 'https://pypi.org/project/pip/#files'
+then use `python setup.py install` to install pip. 
 
 ## Install packages
 It is recommended to install `aos-cube` and `relevant packages` globally, which helps developing with AliOS Things Studio in the future.
 ```bash
-Pleae upgrade pip to latest firstly by below command.
-$python -m pip install --upgrade pip
-It is also supported for users to choose which version you prefer, example as below:
-$python -m pip install aos-cube==0.2.45
+# Install aos-cube steps
 
+# Pleae upgrade pip to latest firstly by below command.
+$python -m pip install --upgrade pip
 
 $ python -m pip install setuptools
 $ python -m pip install wheel
 $ python -m pip install aos-cube
 ```
-**`Note:`** Please make sure pip environment is based on Python 2.7 64bits.
 
 ```bash
-if you want to upgrade aos-cube, please see below steps:
+# Upgrade aos-cube as below steps
 
 $ python -m pip install --upgrade setuptools
 $ python -m pip install --upgrade wheel
 $ python -m pip install --upgrade aos-cube
 ```
-**`Note:`** Please make sure `esptool, pyserial, scons` and `aos-cube` are installed sucessfully when run `pip install aos-cube`, or you can install them one by one if you meet problems.
 
-**`Note:`** If you meet network issue, you can use below source to install/upgrade pip/aos-cube.
+*`Note:`* If you meet network issue, you can use below source to install/upgrade pip/aos-cube.
 ```bash
 python -m pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/ --upgrade pip
 pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   setuptools
 pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   wheel
 pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/   aos-cube
 
-pip install  --trusted-host pypi.doubanio.com -i  http://pypi.doubanio.com/simple/  aos-cube==0.2.50
-
+# use doubanio as backup source
+pip install  --trusted-host pypi.doubanio.com -i  http://pypi.doubanio.com/simple/  aos-cube
 ```
 
 ## Run
