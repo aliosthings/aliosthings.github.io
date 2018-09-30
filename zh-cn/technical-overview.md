@@ -7,19 +7,12 @@
 AliOS Things的架构可以适用于分层架构和组件化架构。从底部到顶部，AliOS Things包括：
 
 - 板级支持包（BSP）：主要由SoC供应商开发和维护
-
 - 硬件抽象层（HAL）：比如WiFi和UART
-
 - 内核：包括Rhino实时操作系统内核、Yloop, VFS, KV 存储
-
 - 协议栈：包括TCP/IP协议栈（LwIP），uMesh网络协议栈
-
 - 安全：安全传输层协议（TLS），可信服务框架（TFS）、可信运行环境（TEE）
-
 - AOS API：提供可供应用软件和中间件使用的API
-
 - 中间件：包括常见的物联网组件和阿里巴巴增值服务中间件
-
 - 示例应用：阿里自主开发的示例代码，以及通过了完备测试的应用程序（比如Alinkapp）
 
 所有的模组都已经被组织成组件，且每个组件都有自己的.mk文件，用于描述它和其它组件间的依赖关系，方便应用开发者按需选用。 
@@ -217,3 +210,6 @@ AT解析器提供了处理AT命令连接通信模块的框架。AT解析器可�
 ## 小结
 
 AliOS Things是为电量和资源有限的MCU，连接套接字SoC设计的，并非常适合于物联网设备。更多细节可以点击 https://github.com/alibaba/AliOS-Things/wiki
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTczMTkyMTcxXX0=
+-->
