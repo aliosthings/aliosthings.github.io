@@ -28,7 +28,7 @@ AliOS Things的架构可以适用于分层架构和组件化架构。从底部�
 
 ---
 
-![block_digram](https://img.alicdn.com/tfs/TB1fKQMihrI8KJjy0FpXXb5hVXa-2330-1292.png)
+![](https://img.alicdn.com/tfs/TB16Sl8aHPpK1RjSZFFXXa5PpXa-2600-2200.png)
 
 ### 文件夹结构
 
@@ -217,3 +217,6 @@ AT解析器提供了处理AT命令连接通信模块的框架。AT解析器可�
 ## 小结
 
 AliOS Things是为电量和资源有限的MCU，连接套接字SoC设计的，并非常适合于物联网设备。更多细节可以点击 https://github.com/alibaba/AliOS-Things/wiki
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTUyOTA3NTM5NV19
+-->
