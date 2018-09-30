@@ -13,3 +13,6 @@
 * 等
 
 请首先阅读[AliOS Things 认证流程](https://github.com/alibaba/AliOS-Things/wiki/Certification-Process)和[AliOS Things 自测指南](https://github.com/alibaba/AliOS-Things/wiki/Manual)，了解认证服务的整体流程和认证需要自测的测试项。
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzk2NjE1OTldfQ==
+-->
