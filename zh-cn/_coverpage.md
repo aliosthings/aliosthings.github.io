@@ -1,6 +1,5 @@
 ![logo](../_media/icon.svg)
 
-[![build](https://img.shields.io/travis/alibaba/AliOS-Things/master.svg?style=flat-square)](https://github.com/alibaba/AliOS-Things)
 [![version](https://img.shields.io/github/tag/alibaba/AliOS-Things.svg?style=flat-square)](https://github.com/alibaba/AliOS-Things)
 [![license](https://img.shields.io/github/license/alibaba/AliOS-Things.svg?style=flat-square)](https://github.com/alibaba/AliOS-Things)
 
@@ -8,3 +7,6 @@
 
 [GitHub](https://github.com/alibaba/AliOS-Things)
 [开始使用](#alios-things)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY4MDU1MjA3MF19
+-->
