@@ -21,7 +21,7 @@ All modules have been organized as components, and each component has its own .m
 
 ---
 
-![block_digram](https://img.alicdn.com/tfs/TB1fKQMihrI8KJjy0FpXXb5hVXa-2330-1292.png)
+![](https://img.alicdn.com/tfs/TB1FGaqw0knBKNjSZKPXXX6OFXa-2600-2200.png)
 
 ### Folder structure
 
@@ -243,3 +243,6 @@ Cooperating with AliOS Studio, it provides developers with a remote and multiple
 AliOS Things is designed for low power, resource constrained MCU and connectivity SoC, which is greatly suitable for IoT devices.
 
 For more detailed information, please go to: https://github.com/alibaba/AliOS-Things/wiki
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2MjY1NjMxNDBdfQ==
+-->
