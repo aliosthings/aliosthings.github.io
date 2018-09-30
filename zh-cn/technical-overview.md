@@ -217,6 +217,3 @@ AT解析器提供了处理AT命令连接通信模块的框架。AT解析器可�
 ## 小结
 
 AliOS Things是为电量和资源有限的MCU，连接套接字SoC设计的，并非常适合于物联网设备。更多细节可以点击 https://github.com/alibaba/AliOS-Things/wiki
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTA3NTM5NV19
--->
