@@ -243,6 +243,3 @@ Cooperating with AliOS Studio, it provides developers with a remote and multiple
 AliOS Things is designed for low power, resource constrained MCU and connectivity SoC, which is greatly suitable for IoT devices.
 
 For more detailed information, please go to: https://github.com/alibaba/AliOS-Things/wiki
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjY1NjMxNDBdfQ==
--->
