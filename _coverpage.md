@@ -1,4 +1,4 @@
-![logo](https://img.alicdn.com/tfs/TB18QQUvAomBKNjSZFqXXXtqVXa-486-100.png)
+![logo](_media/icon.svg)
 
 [![version](https://img.shields.io/github/tag/alibaba/AliOS-Things.svg?style=flat-square)](https://github.com/alibaba/AliOS-Things)
 [![license](https://img.shields.io/github/license/alibaba/AliOS-Things.svg?style=flat-square)](https://github.com/alibaba/AliOS-Things)
