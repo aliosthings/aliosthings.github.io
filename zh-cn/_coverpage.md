@@ -7,6 +7,3 @@
 
 [GitHub](https://github.com/alibaba/AliOS-Things)
 [开始使用](#alios-things)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDU1MjA3MF19
--->

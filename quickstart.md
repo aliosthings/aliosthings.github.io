@@ -94,6 +94,3 @@ $ ./out/helloworld@linuxhost/binary/helloworld@linuxhost.elf
  [  11.000]<V> AOS [app_delayed_action#9] : app_delayed_action:9 app
  [  16.000]<V> AOS [app_delayed_action#9] : app_delayed_action:9 app
  ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMxOTEwNTddfQ==
--->
