@@ -29,7 +29,7 @@ be_cli工具是BoneEngine@Lite用于调试js代码的工具。
 
 * Windows系统：
 
-  参考文档 [如何在windows下准备be-cli应用开发环境.md](zh-cn/be-cli-for-windows-install.md)
+  参考文档 [如何在windows下准备be-cli应用开发环境.md](./be-cli-for-windows-install.md)
 
 
 
