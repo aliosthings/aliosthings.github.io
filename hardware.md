@@ -18,6 +18,8 @@
 #### ARM Cortex-M3
   - MXCHIP MX1101
     - MK1101
+  - Opulinks
+    - [OPL1000](https://opulinks.com/documentation/)
 
 #### ARM Cortex-M4
   - ST Micro STM32 F4/L4
