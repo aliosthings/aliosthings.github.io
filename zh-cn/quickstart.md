@@ -1,6 +1,6 @@
 # 快速开始
 
-本文通过直接在一台 linux 机器上运行 AliOS Things 来带您快速体验它。  
+直接在一台 linux 机器上运行 AliOS Things 来带您快速体验它。  
 如果您在 Windows 或 Mac 上工作，也可以使用我们提供的[IDE](https://github.com/alibaba/AliOS-Things/wiki/AliOS-Things-Studio)。
 
 
